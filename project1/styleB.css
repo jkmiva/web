@@ -1,0 +1,27 @@
+.container {
+  display : flex;
+  flex-direction : ltr;
+  white-space : nowrap;
+}
+
+.container :nth-child(n) {
+  width : 90px;
+  height : 140px;
+  padding-left : 10px;
+  padding-top : 10px;
+  border-left : 10px dotted #D0D0FF;
+  margin-left : 10px;
+  background-color : #eeeff2;
+  font : 40px Tahoma,Geneva,sans-serif;
+}
+
+.container :last-child {
+  position : fixed;
+  right : 0;
+  bottom : 0;
+}
+
+.container :hover {
+  color : goldenrod;
+  background-color : yellow;
+}
