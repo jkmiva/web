@@ -1,0 +1,26 @@
+td {
+  font-family: Tahoma;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  background-color: #ccc;
+}
+
+tr:nth-child(2) > td {
+  background-color: #bbb;
+  font-family: Verdana;
+  font-size: 20px;
+  color: #555;
+}
+.dayInLastMonth, .dayInNextMonth {
+  color: white;
+}
+
+.clickable, .currentTime {
+  background-color: purple;
+  color: white;
+  font-family: Verdana;
+}
