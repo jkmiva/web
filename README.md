@@ -2,3 +2,4 @@
 + project1: html and css
 + project2: JavaScript Basic
 + project3: DatePicker (js and DOM)
++ project4: Single Page App (AngularJS)

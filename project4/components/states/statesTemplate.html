@@ -1,0 +1,15 @@
+<!--Replaced this with the Angular template for states component of CS142 Project #4
+    Problem #2.-->
+<div>
+    <form class="cs142-states-form">
+        <fieldset>
+        <legend>States matching</legend>
+        <p>Input partial name of a state, get list of matched results.</p>
+        <label>Input substr : <input type="text" maxlength="20" ng-model="p2.filterStr" ng-change="filterFn()"></label>
+        </fieldset>
+    </form>
+    <p class="cs142-states-outputInfo">{{outputInfo}}</p>
+    <ul >
+        <li ng-repeat="x in retStr">{{x}}</li>
+    </ul>
+</div>
