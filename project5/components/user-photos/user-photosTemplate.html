@@ -1,0 +1,16 @@
+<md-list>
+    <md-list-item ng-repeat="photo in photosOfUser" layout="column">
+        <img ng-src="images/{{photo.file_name}}" alt="img">
+        <span><i>Posted on</i> {{photo.date_time}}</span>
+        <div ng-if="photo.comments===undefined">No comments</div>
+        <div >
+            <md-list>
+                <md-list-item ng-repeat="comment in photo.comments" layout="column">
+                    <a ng-href="#!/users/{{comment.user.id}}">{{comment.user.first_name+' '+comment.user.last_name}}</a>
+                    <div><i>commented on</i> {{comment.date_time}}</div>
+                    <div>{{comment.comment}}</div>
+                </md-list-item>
+            </md-list>
+        </div>
+    </md-list-item>
+</md-list>

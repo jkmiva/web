@@ -1,0 +1,29 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+#toolbar_name {
+    display : flex;
+    justify-content : flex-end;
+    align-items : center;
+    font-size : 20px;
+    flex : 1;
+}
+
+#toolbar_title {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-size : 30px;
+    flex : 2;
+    
+}
+
+#toolbar_info {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex : 1
+}

@@ -1,0 +1,14 @@
+<h3>{{main.title}}</h3>
+<md-list>
+    <md-list-item ng-repeat="user in userList">
+        <img class="md-avatar" ng-src="avatar.svg" alt="avatar">
+        <div class="md-list-item-text" layout="column">
+            <a ng-href="#!/users/{{user.id}}">
+                {{user.first_name+" "+user.last_name}}
+            </a>
+            <span><i>{{user.occupation}}</i></span>
+        </div>
+    </md-list-item>
+</md-list>
+
+
